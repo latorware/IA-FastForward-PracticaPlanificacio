@@ -66,7 +66,8 @@ public class generadorFitxerBasic {
         myWriter.write("    )\n");
         myWriter.write(")\n");
 
-
+    
+        myWriter.write("    (:goal (forall (?x - reserva) (assignada ?x))");
 
 
 
