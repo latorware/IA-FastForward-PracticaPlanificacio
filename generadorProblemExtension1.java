@@ -63,9 +63,10 @@ public class generadorProblemExtension1 {
         for (int i = 1; i <= 30; i++) {
             myWriter.write("        (= (numero " + "dia" + i + ") " + i + ")\n");
         }
+        myWriter.write("        (= (reservas_asignadas) 0)\n");
         myWriter.write("    )\n");
-        //myWriter.write("    (:goal (forall (?x - reserva) (assignada ?x)))\n");
-        myWriter.write("    (:maximize (reservas_asignadas))\n");
+        myWriter.write("    (:goal (forall (?x - reserva) (assignada ?x)))\n");
+        myWriter.write("    (:metric maximize (reservas_asignadas))\n");
         myWriter.write(")\n");
 
 

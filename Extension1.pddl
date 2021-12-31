@@ -23,7 +23,7 @@
     (:action assignar
         :parameters (?x - reserva ?y - habitacion)
         :precondition (and (not (assignada ?x)) (>= (maxPersonas ?y) (personas ?x)) (forall (?t - dia) (or(and (<= (numero ?t) (final ?x)) (>= (numero ?t) (inicio ?x)) (not (ocupada ?t ?y)))  (or (> (numero ?t) (final ?x)) (< (numero ?t) (inicio ?x)))     )))
-        :effect (and (assignada ?x) (assignacion ?x ?y) (increase (reservas_asignadas ?x) 1) (forall (?t - dia) (when (and (<= (numero ?t) (final ?x)) (>= (numero ?t) (inicio ?x))) (ocupada ?t ?y))))
+        :effect (and (assignada ?x) (assignacion ?x ?y) (increase (reservas_asignadas) 1) (forall (?t - dia) (when (and (<= (numero ?t) (final ?x)) (>= (numero ?t) (inicio ?x))) (ocupada ?t ?y))))
     )
 
 

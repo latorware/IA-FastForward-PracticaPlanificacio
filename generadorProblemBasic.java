@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.Random;
 import java.util.Scanner;
 
-public class generadorFitxerBasic {
+public class generadorProblemBasic {
 
 
     public static int randomnumberrr (int lower, int upper) {
