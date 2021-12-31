@@ -42,13 +42,45 @@ public class generadorProblemExtension2 {
             myWriter.write("dia" + i + " ");
         }
         myWriter.write("- dia\n");
+        myWriter.write("        ");
+        myWriter.write("nort sud est oest - orientacion\n");
         myWriter.write("    )\n");
         myWriter.write("    (:init\n");
         for (int i = 0; i < habitacions; i++) {
             myWriter.write("        (= (maxPersonas " + "habitacio" + i + ") " + randomnumberrr(1,4) + ")\n");
+            int orientadaA = randomnumberrr(1, 4); 
+            String orientadaAA = null; 
+            if (orientadaA == 1) {
+                orientadaAA = "nort"; 
+            }
+            else if (orientadaA == 2) {
+                orientadaAA = "sud"; 
+            }
+            else if (orientadaA == 3) {
+                orientadaAA = "est"; 
+            }
+            else if (orientadaA == 4) {
+                orientadaAA = "oest"; 
+            }
+            myWriter.write("        (orientadaA " + orientadaAA + " habitacio" + i    + ")\n");
         }
         for (int i = 0; i < reserves; i++) {
             myWriter.write("        (= (personas " + "reserva" + i + ") " + randomnumberrr(1,4) + ")\n");
+            int peticionOrientacion = randomnumberrr(1, 4); 
+            String peticionOrientacionn = null; 
+            if (peticionOrientacion == 1) {
+                peticionOrientacionn = "nort"; 
+            }
+            else if (peticionOrientacion == 2) {
+                peticionOrientacionn = "sud"; 
+            }
+            else if (peticionOrientacion == 3) {
+                peticionOrientacionn = "est"; 
+            }
+            else if (peticionOrientacion == 4) {
+                peticionOrientacionn = "oest"; 
+            }
+            myWriter.write("        (peticionOrientacion " + peticionOrientacionn + " reserva" + i    + ")\n");
         }
         for (int i = 0; i < reserves; i++) {
             int diainici; 
@@ -64,6 +96,7 @@ public class generadorProblemExtension2 {
             myWriter.write("        (= (numero " + "dia" + i + ") " + i + ")\n");
         }
         myWriter.write("        (= (reservas_asignadas) 0)\n");
+        myWriter.write("        (= (assignadas_con_orientacion) 0)\n");
         myWriter.write("    )\n");
         myWriter.write("    (:goal (forall (?x - reserva) (assignada ?x)))\n");
         myWriter.write("    (:metric maximize (+ (* 2 (reservas_asignadas)) (assignadas_con_orientacion)))\n");

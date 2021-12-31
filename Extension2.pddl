@@ -1,7 +1,7 @@
 (define (domain planificador)
     (:requirements :strips :equality :conditional-effects :adl :typing :fluents)
-    (:types habitacion reserva dia - object
-            nort sud est oest - orientacion
+    (:types habitacion reserva dia orientacion - object
+            ;;nort sud est oest - orientacion
     )
     (:predicates
         (assignada ?x - reserva) ;; x assignada
