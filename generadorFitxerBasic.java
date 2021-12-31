@@ -64,10 +64,8 @@ public class generadorFitxerBasic {
             myWriter.write("        (= (numero " + "dia" + i + ") " + i + ")\n");
         }
         myWriter.write("    )\n");
+        myWriter.write("    (:goal (forall (?x - reserva) (assignada ?x)))\n");
         myWriter.write(")\n");
-
-    
-        myWriter.write("    (:goal (forall (?x - reserva) (assignada ?x))");
 
 
 

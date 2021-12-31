@@ -2,30 +2,18 @@
     (:domain planificador)
     (:objects
         habitacio0 habitacio1 habitacio2 habitacio3 habitacio4 - habitacion
-        reserva0 reserva1 reserva2 reserva3 reserva4 - reserva
+        reserva0 - reserva
         dia1 dia2 dia3 dia4 dia5 dia6 dia7 dia8 dia9 dia10 dia11 dia12 dia13 dia14 dia15 dia16 dia17 dia18 dia19 dia20 dia21 dia22 dia23 dia24 dia25 dia26 dia27 dia28 dia29 dia30 - dia
     )
     (:init
-        (= (maxPersonas habitacio0) 3)
+        (= (maxPersonas habitacio0) 1)
         (= (maxPersonas habitacio1) 3)
-        (= (maxPersonas habitacio2) 2)
-        (= (maxPersonas habitacio3) 2)
-        (= (maxPersonas habitacio4) 3)
-        (= (personas reserva0) 1)
-        (= (personas reserva1) 4)
-        (= (personas reserva2) 2)
-        (= (personas reserva3) 1)
-        (= (personas reserva4) 4)
+        (= (maxPersonas habitacio2) 1)
+        (= (maxPersonas habitacio3) 1)
+        (= (maxPersonas habitacio4) 2)
+        (= (personas reserva0) 3)
         (= (inicio reserva0) 4)
-        (= (final reserva0) 17)
-        (= (inicio reserva1) 6)
-        (= (final reserva1) 15)
-        (= (inicio reserva2) 2)
-        (= (final reserva2) 13)
-        (= (inicio reserva3) 14)
-        (= (final reserva3) 28)
-        (= (inicio reserva4) 3)
-        (= (final reserva4) 25)
+        (= (final reserva0) 28)
         (= (numero dia1) 1)
         (= (numero dia2) 2)
         (= (numero dia3) 3)
@@ -57,4 +45,5 @@
         (= (numero dia29) 29)
         (= (numero dia30) 30)
     )
+    (:goal (forall (?x - reserva) (assignada ?x)))
 )
