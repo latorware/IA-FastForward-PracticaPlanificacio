@@ -1,5 +1,5 @@
 (define (domain planificador)
-    (:requirements :adl :typing :fluents)
+    (:requirements :strips :equality :conditional-effects :adl :typing :fluents)
     (:types habitacion reserva - object
             identificador dia - object2
     )
@@ -23,8 +23,8 @@
 
     (:action assignar
         :parameters (?x - reserva ?y - habitacion)
-        :precondition (and (not (assignada ?x))  (>= (maxPersonas ?y) (personas ?x))   (forall(?z - dia) (when (and (<= (numero ?z) (final ?x) )   (>= (numero ?z) (inicio ?x))  )   (not(ocupada ?z ?y))    )     )    )
-        :effect (and  (assignada ?x)  (assignacion ?x ?y)  (forall (?t dia) (when (and (<= (numero ?t) (final ?x) )   (>= (numero ?t) (inicio ?x))  )   (ocupada ?t ?y)    ) )             )
+        :precondition (and (not (assignada ?x)) (>= (maxPersonas ?y) (personas ?x)) (forall (?z - dia) (when (and (<= (numero ?z) (final ?x)) (>= (numero ?z) (inicio ?x))) (not (ocupada ?z ?y)))))
+        :effect (and (assignada ?x) (assignacion ?x ?y) (forall (?t dia) (when (and (<= (numero ?t) (final ?x)) (>= (numero ?t) (inicio ?x))) (ocupada ?t ?y))))
     )
 
 
