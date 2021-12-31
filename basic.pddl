@@ -1,10 +1,8 @@
 (define (domain planificador)
     (:requirements :strips :equality :conditional-effects :adl :typing :fluents)
-    (:types habitacion reserva - object
-            identificador dia - object2
+    (:types habitacion reserva dia - object
     )
     (:predicates
-        (identificacion ?x - object ?y - identificador) ;;y es el identificador de x
         (assignada ?x - reserva) ;; x assignada
         (assignacion ?x - reserva ?y - habitacion) ;; x asignada en y
         (ocupada ?x - dia ?y - habitacion) ;; y ocupada en x
