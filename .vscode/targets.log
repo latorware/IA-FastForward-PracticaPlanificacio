@@ -8,10 +8,12 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Dec 31 13:24:30 2021
+# Make data base, printed on Tue Jan 04 13:22:30 2022
 
 # Variables
 
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
 SYSTEMDRIVE = C:
 # environment
@@ -23,7 +25,7 @@ USERPROFILE = C:\Users\lator
 # environment
 LOCALAPPDATA = C:\Users\lator\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-8930fee3-6e63-413d-898f-575a65c964d6-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-caea1758-b86e-4951-9f02-527c5fa486f5-sock
 # environment
 VSCODE_CWD = C:\Users\lator\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -39,7 +41,9 @@ MAKE_COMMAND := c:/programdata/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_19408_GHEMRLKRFISIPVEK
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_9340_CSNXTZNENDLPEBSS
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -93,7 +97,7 @@ MAKEFILE_LIST :=
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 19408
+VSCODE_PID = 9340
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -219,10 +223,9 @@ PROCESSOR_REVISION = a502
 # environment
 CHOCOLATEYTOOLSLOCATION = C:\tools
 # environment
-PROCE 
-SSOR_IDENTIFIER = Intel64 Family 6 Model 165 Stepping 2, GenuineIntel
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 165 Stepping 2, GenuineIntel
 # variable set hash-table stats:
-# Load=104/1024=10%, Rehash=0, Collisions=9/128=7%
+# Load=106/1024=10%, Rehash=0, Collisions=10/130=8%
 
 # Pattern-specific Variable Values
 
@@ -230,9 +233,9 @@ SSOR_IDENTIFIER = Intel64 Family 6 Model 165 Stepping 2, GenuineIntel
 
 # Directories
 
-# . (key c:/Users/lator/Documents/GitHub/IA-FastForward-PracticaPlanificacio, mtime 1640953469): 9 files, no impossibilities.
+# . (key c:/Users/lator/Documents/GitHub/IA-FastForward-PracticaPlanificacio, mtime 1640976730): 12 files, no impossibilities.
 
-# 9 files, no impossibilities in 1 directories.
+# 12 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -289,12 +292,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 16 / storage = 159 B / avg = 9 B
-# current buf: size = 8174 B / used = 159 B / count = 16 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 19 / storage = 238 B / avg = 12 B
+# current buf: size = 8174 B / used = 238 B / count = 19 / avg = 12 B
 
-# strcache performance: lookups = 19 / hit rate = 15%
+# strcache performance: lookups = 22 / hit rate = 13%
 # hash-table stats:
-# Load=16/8192=0%, Rehash=0, Collisions=0/19=0%
-# Finished Make data base on Fri Dec 31 13:24:30 2021
+# Load=19/8192=0%, Rehash=0, Collisions=0/22=0%
+# Finished Make data base on Tue Jan 04 13:22:30 2022
 
  
