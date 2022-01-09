@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Jan 09 18:01:43 2022
+# Make data base, printed on Sun Jan 09 18:43:32 2022
 
 # Variables
 
@@ -25,7 +25,7 @@ USERPROFILE = C:\Users\lator
 # environment
 LOCALAPPDATA = C:\Users\lator\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-cfa3c68d-b4c0-4ab9-aff1-c3a39bea60a7-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-29dd0324-900b-446a-96dc-8c6e1a6a76e9-sock
 # environment
 VSCODE_CWD = C:\Users\lator\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -41,7 +41,7 @@ MAKE_COMMAND := c:/programdata/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_1544_GNBIMWWXTBQVEQPS
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_22000_HCXALEOPADESUFUK
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -97,7 +97,7 @@ MAKEFILE_LIST :=
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 1544
+VSCODE_PID = 22000
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -233,10 +233,9 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 165 Stepping 2, GenuineIntel
 
 # Directories
 
-# . (key c:/Users/lator/Documents/GitHub/IA-FastForward-PracticaPlanificacio, mtime 1641747610): 17 files, no impossibilities.
+# . (key c:/Users/lator/Documents/GitHub/IA-FastForward-PracticaPlanificacio, mtime 1641750182): 18 files, no impossibilities.
 
-# 17 files, no imp 
-ossibilities in 1 directories.
+# 18 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -289,16 +288,17 @@ GNUmakefile:
 # Load=7/1024=1%, Rehash=0, Collisions=0/16=0%
 # VPATH Search Paths
 
+ 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 24 / storage = 347 B / avg = 14 B
-# current buf: size = 8174 B / used = 347 B / count = 24 / avg = 14 B
+# strcache buffers: 1 (0) / strings = 25 / storage = 369 B / avg = 14 B
+# current buf: size = 8174 B / used = 369 B / count = 25 / avg = 14 B
 
-# strcache performance: lookups = 27 / hit rate = 11%
+# strcache performance: lookups = 28 / hit rate = 10%
 # hash-table stats:
-# Load=24/8192=0%, Rehash=0, Collisions=0/27=0%
-# Finished Make data base on Sun Jan 09 18:01:43 2022
+# Load=25/8192=0%, Rehash=0, Collisions=0/28=0%
+# Finished Make data base on Sun Jan 09 18:43:32 2022
 
  
