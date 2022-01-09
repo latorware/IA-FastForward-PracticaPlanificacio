@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Jan 09 17:56:06 2022
+# Make data base, printed on Sun Jan 09 18:01:43 2022
 
 # Variables
 
@@ -25,7 +25,7 @@ USERPROFILE = C:\Users\lator
 # environment
 LOCALAPPDATA = C:\Users\lator\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-4247a58a-96e5-4f09-998a-37fbc22f06b0-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-cfa3c68d-b4c0-4ab9-aff1-c3a39bea60a7-sock
 # environment
 VSCODE_CWD = C:\Users\lator\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -41,7 +41,7 @@ MAKE_COMMAND := c:/programdata/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_16400_NLQJXUNXUNZOXAUC
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_1544_GNBIMWWXTBQVEQPS
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -97,7 +97,7 @@ MAKEFILE_LIST :=
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 16400
+VSCODE_PID = 1544
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -233,9 +233,10 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 165 Stepping 2, GenuineIntel
 
 # Directories
 
-# . (key c:/Users/lator/Documents/GitHub/IA-FastForward-PracticaPlanificacio, mtime 1641747188): 16 files, no impossibilities.
+# . (key c:/Users/lator/Documents/GitHub/IA-FastForward-PracticaPlanificacio, mtime 1641747610): 17 files, no impossibilities.
 
-# 16 files, no impossibilities in 1 directories.
+# 17 files, no imp 
+ossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -292,12 +293,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 23 / storage = 334 B / avg = 14 B
-# current buf: size = 8174 B / used = 334 B / count = 23 / avg = 14 B
+# strcache buffers: 1 (0) / strings = 24 / storage = 347 B / avg = 14 B
+# current buf: size = 8174 B / used = 347 B / count = 24 / avg = 14 B
 
-# strcache performance: lookups = 26 / hit rate = 11%
+# strcache performance: lookups = 27 / hit rate = 11%
 # hash-table stats:
-# Load=23/8192=0%, Rehash=0, Collisions=0/26=0%
-# Finished Make data base on Sun Jan 09 17:56:06 2022
+# Load=24/8192=0%, Rehash=0, Collisions=0/27=0%
+# Finished Make data base on Sun Jan 09 18:01:43 2022
 
  
