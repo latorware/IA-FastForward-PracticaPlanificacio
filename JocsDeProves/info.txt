@@ -1,0 +1,2 @@
+Tots els jocs de proves han sigut creats amb els generadors de proves, introduint-li a aquest
+que es volen 7 habitacions i també 7 reserves. 

@@ -1,0 +1,30 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory 'c:/Users/lator/Documents/GitHub/IA-FastForward-PracticaPlanificacio/Metric-FF'
+gcc -c -O6 -Wall -g  -std=gnu99    main.c
+gcc -c -O6 -Wall -g  -std=gnu99    memory.c
+ 
+gcc -c -O6 -Wall -g  -std=gnu99    output.c
+ 
+gcc -c -O6 -Wall -g  -std=gnu99    parse.c
+gcc -c -O6 -Wall -g  -std=gnu99    expressions.c
+ 
+gcc -c -O6 -Wall -g  -std=gnu99    inst_pre.c
+gcc -c -O6 -Wall -g  -std=gnu99    inst_easy.c
+ 
+gcc -c -O6 -Wall -g  -std=gnu99    inst_hard.c
+gcc -c -O6 -Wall -g  -std=gnu99    inst_final.c
+ 
+gcc -c -O6 -Wall -g  -std=gnu99    relax.c
+ 
+gcc -c -O6 -Wall -g  -std=gnu99    search.c
+ 
+flex -Pfct_pddl lex-fct_pddl.l
+bison -pfct_pddl -bscan-fct_pddl scan-fct_pddl.y
+gcc -c -O6 -Wall -g  -std=gnu99    scan-fct_pddl.tab.c
+ 
+flex -Pops_pddl lex-ops_pddl.l
+bison -pops_pddl -bscan-ops_pddl scan-ops_pddl.y
+gcc -c -O6 -Wall -g  -std=gnu99    scan-ops_pddl.tab.c
+gcc -o ff main.o memory.o output.o parse.o expressions.o inst_pre.o inst_easy.o inst_hard.o inst_final.o relax.o search.o scan-fct_pddl.tab.o scan-ops_pddl.tab.o  -O6 -Wall -g  -std=gnu99    -lm
+make: Leaving directory 'c:/Users/lator/Documents/GitHub/IA-FastForward-PracticaPlanificacio/Metric-FF'
+ 

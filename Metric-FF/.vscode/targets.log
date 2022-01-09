@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Jan 09 17:56:06 2022
+# Make data base, printed on Sun Jan 09 17:55:38 2022
 
 # Variables
 
@@ -25,13 +25,15 @@ USERPROFILE = C:\Users\lator
 # environment
 LOCALAPPDATA = C:\Users\lator\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-4247a58a-96e5-4f09-998a-37fbc22f06b0-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-2c993ba9-39ac-4ef0-a0ba-dc945eab22b8-sock
 # environment
 VSCODE_CWD = C:\Users\lator\AppData\Local\Programs\Microsoft VS Code
 # environment
 CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
 # environment
 SYSTEMROOT = C:\WINDOWS
+# makefile (from 'makefile', line 17)
+LIBS = -lm
 # environment
 PROCESSOR_LEVEL = 6
 # environment
@@ -41,7 +43,7 @@ MAKE_COMMAND := c:/programdata/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_16400_NLQJXUNXUNZOXAUC
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_21760_PSJEEUVLGFGCMCEN
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -73,7 +75,7 @@ MAKEFLAGS = pqrR
 # environment
 ONEDRIVE = C:\Users\lator\OneDrive
 # makefile
-CURDIR := c:/Users/lator/Documents/GitHub/IA-FastForward-PracticaPlanificacio
+CURDIR := c:/Users/lator/Documents/GitHub/IA-FastForward-PracticaPlanificacio/Metric-FF
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -90,18 +92,20 @@ MFLAGS = -pqrR
 COMMONPROGRAMW6432 = C:\Program Files\Common Files
 # automatic
 +D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
-# makefile
-MAKEFILE_LIST := 
+# makefile (from 'makefile', line 1)
+MAKEFILE_LIST := makefile
 # automatic
 @F = $(notdir $@)
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 16400
+VSCODE_PID = 21760
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
 *F = $(notdir $*)
+# makefile (from 'makefile', line 22)
+PDDL_PARSER_SRC = scan-fct_pddl.tab.c scan-ops_pddl.tab.c scan-probname.tab.c lex.fct_pddl.c lex.ops_pddl.c 
 # automatic
 <D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
 # environment
@@ -168,6 +172,8 @@ PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
 +F = $(notdir $+)
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# makefile (from 'makefile', line 44)
+OBJECTS = $(SOURCES:.c=.o)
 # environment
 USERDOMAIN = DESKTOP-O9K8TPQ
 # 'override' directive
@@ -175,7 +181,11 @@ GNUMAKEFLAGS :=
 # environment
 OS = Windows_NT
 # makefile
-.DEFAULT_GOAL := 
+.DEFAULT_GOAL := ff
+# makefile (from 'makefile', line 9)
+TYPE = 
+# makefile (from 'makefile', line 28)
+PDDL_PARSER_OBJ = scan-fct_pddl.tab.o scan-ops_pddl.tab.o 
 # default
 MAKE_VERSION := 4.3
 # environment
@@ -190,6 +200,8 @@ PUBLIC = C:\Users\Public
 ASL.LOG = Destination=file
 # environment
 APPDATA = C:\Users\lator\AppData\Roaming
+# makefile (from 'makefile', line 14)
+CFLAGS = -O6 -Wall -g  -std=gnu99 $(TYPE) $(ADDONS) 
 # environment
 HOMEDRIVE = C:
 # environment
@@ -198,6 +210,8 @@ PROCESSOR_ARCHITECTURE = x86
 VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
 # environment
 COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# makefile (from 'makefile', line 10)
+ADDONS = 
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
@@ -220,12 +234,17 @@ ADSK_3DSMAX_X64_2022 = C:\Program Files\Autodesk\3ds Max 2022\
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
 # environment
 PROCESSOR_REVISION = a502
+# makefile (from 'makefile', line 12)
+CC = gcc
+# makefile (from 'makefile', line 32)
+SOURCES = main.c memory.c output.c parse.c expressions.c inst_pre.c inst_easy.c inst_hard.c inst_final.c relax.c search.c
 # environment
 CHOCOLATEYTOOLSLOCATION = C:\tools
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 165 Stepping 2, GenuineIntel
 # variable set hash-table stats:
-# Load=106/1024=10%, Rehash=0, Collisions=10/130=8%
+# Loa 
+d=115/1024=11%, Rehash=0, Collisions=13/145=9%
 
 # Pattern-specific Variable Values
 
@@ -233,22 +252,148 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 165 Stepping 2, GenuineIntel
 
 # Directories
 
-# . (key c:/Users/lator/Documents/GitHub/IA-FastForward-PracticaPlanificacio, mtime 1641747188): 16 files, no impossibilities.
+# . (key c:/Users/lator/Documents/GitHub/IA-FastForward-PracticaPlanificacio/Metric-FF, mtime 1641747324): 52 files, no impossibilities.
 
-# 16 files, no impossibilities in 1 directories.
+# 52 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
-# No implicit rules.
+%.c:
 
+%.o: %.c
+#  recipe to execute (from 'makefile', line 52):
+	 $(CC) -c $(CFLAGS) $<
+
+%.o:
+
+# 3 implicit rules, 0 (0.0%) terminal.
 # Files
 
+.c.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 52):
+	 $(CC) -c $(CFLAGS) $<
+
 # Not a target:
-Makefile:
-#  Implicit rule search has been done.
-#  File does not exist.
-#  File has been updated.
-#  Failed to be updated.
+inst_hard.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+parse.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+depend:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 86):
+	makedepend -- $(SOURCES) $(PDDL_PARSER_SRC)
+
+# Not a target:
+inst_pre.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+lex-fct_pddl.l:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+lint:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 89):
+	lclint -booltype Bool $(SOURCES) 2> output.lint
+
+# Not a target:
+inst_final.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ff: main.o memory.o output.o parse.o expressions.o inst_pre.o inst_easy.o inst_hard.o inst_final.o relax.o search.o scan-fct_pddl.tab.o scan-ops_pddl.tab.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 58):
+	$(CC) -o ff $(OBJECTS) $(PDDL_PARSER_OBJ) $(CFLAGS) $(LIBS)
+
+# Not a target:
+output.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+scan-fct_pddl.tab.c: scan-fct_pddl.y lex.fct_pddl.c
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 62):
+	bison -pfct_pddl -bscan-fct_pddl scan-fct_pddl.y
+
+# Not a target:
+scan-fct_pddl.y:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+scan-ops_pddl.y:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 76):
+	rm -f *.o *.bak *~ *% core *_pure_p9_c0_400.o.warnings \
+        \#*\# $(RES_PARSER_SRC) $(PDDL_PARSER_SRC)
+
+scan-ops_pddl.tab.c: scan-ops_pddl.y lex.ops_pddl.c
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 65):
+	bison -pops_pddl -bscan-ops_pddl scan-ops_pddl.y
+
+# Not a target:
+relax.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+search.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+scan-ops_pddl.tab.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+veryclean: clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 80):
+	rm -f ff H* J* K* L* O* graph.* *.symbex gmon.out \
+	$(PDDL_PARSER_SRC) \
+	lex.fct_pddl.c lex.ops_pddl.c lex.probname.c \
+	*.output
 
 # Not a target:
 .DEFAULT:
@@ -264,40 +409,93 @@ all:
 #  File has not been updated.
 
 # Not a target:
+scan-fct_pddl.tab.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+lex-ops_pddl.l:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+main.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+inst_easy.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+lex.ops_pddl.c: lex-ops_pddl.l
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 71):
+	flex -Pops_pddl lex-ops_pddl.l
+
+# Not a target:
 makefile:
 #  Implicit rule search has been done.
-#  File does not exist.
+#  Last modified 2020-12-27 05:47:06
 #  File has been updated.
-#  Failed to be updated.
+#  Successfully updated.
 
 # Not a target:
-makefile.mak:
-#  Implicit rule search has been done.
-#  File does not exist.
-#  File has been updated.
-#  Failed to be updated.
+.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+lex.fct_pddl.c: lex-fct_pddl.l
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 68):
+	flex -Pfct_pddl lex-fct_pddl.l
+
+.SUFFIXES: .c .o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
-GNUmakefile:
-#  Implicit rule search has been done.
-#  File does not exist.
-#  File has been updated.
-#  Failed to be updated.
+expressions.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+memory.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # files hash-table stats:
-# Load=7/1024=1%, Rehash=0, Collisions=0/16=0%
+# Load=33/1024=3%, Rehash=0, Collisions=7/71=10%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 23 / storage = 334 B / avg = 14 B
-# current buf: size = 8174 B / used = 334 B / count = 23 / avg = 14 B
+# strcache buffers: 1 (0) / strings = 64 / storage = 637 B / avg = 9 B
+# current buf: size = 8174 B / used = 637 B / count = 64 / avg = 9 B
 
-# strcache performance: lookups = 26 / hit rate = 11%
+# strcache performance: lookups = 109 / hit rate = 41%
 # hash-table stats:
-# Load=23/8192=0%, Rehash=0, Collisions=0/26=0%
-# Finished Make data base on Sun Jan 09 17:56:06 2022
+# Load=64/8192=1%, Rehash=0, Collisions=0/109=0%
+# Finished Make data base on Sun Jan 09 17:55:38 2022
 
  
