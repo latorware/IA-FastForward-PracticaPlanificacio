@@ -68,7 +68,7 @@ public class generadorProblemExtension4 {
         myWriter.write("        (= (habitaciones_reservadas) 0)\n");
         myWriter.write("    )\n");
         myWriter.write("    (:goal (forall (?x - reserva) (assignada ?x)))\n");
-        myWriter.write("    (:metric maximize (- (* 2 (reservas_asignadas)) (plazas_sin_ocupar) (*3 (habitaciones_reservadas))))\n");
+        myWriter.write("    (:metric maximize (- (reservas_asignadas) (- (plazas_sin_ocupar) (habitaciones_reservadas))))\n");
 
         myWriter.write(")\n");
 
